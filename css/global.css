@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
 }
-img {
+/*img {
     width: 100%;
-}
+}*/
 
 html, body {
     height: 100%;
@@ -28,4 +28,17 @@ header h1 {
 header h6 {
     color: rbg(10,38,67);
     font-size: 14px;
+}
+
+.text-blue {
+    color: rgb(29, 125, 191);
+}
+
+.text-grey {
+    color: lightgrey;
+}
+
+#bio-pic {
+    margin-top: 45px;
+
 }
