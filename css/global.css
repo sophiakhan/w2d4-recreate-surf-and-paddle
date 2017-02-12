@@ -65,6 +65,11 @@ main .img-author-lg {
 main .button {
     margin-right: 30px;
     color: white;
+    transition: all 0.3s ease 0s;
+}
+
+main .button:hover {
+    opacity: 0.5;
 }
 
 main .button-icon {
@@ -87,6 +92,11 @@ main .button-label {
 
 main .button-blue .button-label {
     background: #016bb5;
+}
+
+main .col-sm-3 .text-muted img {
+    display: inline;
+    
 }
 
 footer .posts {
@@ -150,6 +160,10 @@ footer .post h3 {
 .copyright a {
     color: azure; 
     margin: 0 20px;
+}
+
+.copyright span {
+    font-size: 10px;
 }
 
 .copyright a:last-child {
