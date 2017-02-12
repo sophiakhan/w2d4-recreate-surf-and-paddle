@@ -101,6 +101,10 @@ footer .post {
     align-items: flex-end;
 }
 
+footer .post h3 {
+    font-size: 18px;
+}
+
 #post1 {
     background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(../img/cocoa-two.jpg);
     background-size: cover;
@@ -151,3 +155,11 @@ footer .post {
 .copyright a:last-child {
     margin-right: 0;
 }
+
+/*tablet and higher*/
+
+@media only screen and (min-width : 768px){
+        footer .post h3 {
+            font-size: 28px;
+        }
+	}
